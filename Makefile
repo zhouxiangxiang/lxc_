@@ -1,8 +1,8 @@
 C = gcc
 CFLAGS =
 
-main 	: main.cpp
-	$(CXX) $(CFLAGS) -o $@ $<
+main 	: container.c
+	$(C) $(CFLAGS) -o $@ $<
 
 .PHONY	: clean
 
