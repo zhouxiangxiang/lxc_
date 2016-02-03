@@ -1,7 +1,9 @@
-language:c
+language: c
 
-compiler:gcc
+compiler: gcc
 
+install:
+    
 script:
     - make -j4
     - make
