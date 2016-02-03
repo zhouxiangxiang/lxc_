@@ -3,7 +3,8 @@ compiler: gcc
 
 install:
     - sudo apt-get update
-    - sudo dpkg -S /etc/apparmor.d/tunables/global
+    - apt-get install apparmor-utils
+    #- sudo dpkg -S /etc/apparmor.d/tunables/global
     #- sudo /etc/init.d/apparmor restart
     #- sudo apt-get install mysql-server
     - sudo apt-get install lxc
