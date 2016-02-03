@@ -1,9 +1,9 @@
 language: c
-
 compiler: gcc
 
 install:
-    
+    - sudo apt-get install lxc
+
 script:
     - make -j4
     - make
