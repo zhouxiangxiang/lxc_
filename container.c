@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <linux/lxccontainer.h>
+#include <lxc/lxccontainer.h>
 
 int main() {
     struct lxc_container *pc;
