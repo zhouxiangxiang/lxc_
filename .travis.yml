@@ -4,4 +4,4 @@ compiler:gcc
 
 script:
     - make -j4
-    - make 
+    - make check
